@@ -25,3 +25,6 @@ CSV, JSON, TXT, HTML, PNG and SVG exports are generated in-browser. Excel import
 - Imported data is held in page memory and may be lost on refresh or closing the tab. Export important data before leaving.
 - Sentiment analysis is a simple English keyword/rating heuristic, not a trained AI/ML model. It can misclassify sarcasm, nuanced language, or complex negation.
 - Excel and PDF helper libraries load from public CDNs; the app has no server dependency.
+
+## Motion and interaction
+The interface includes staggered page entrances, hover lift on cards, button sheen/press feedback, chart entrance motion, animated word chips, upload drop-zone feedback, modal/toast transitions, and touch feedback. Motion is reduced automatically when the operating system requests reduced motion.
